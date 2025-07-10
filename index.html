@@ -3,9 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
     <title>Hardware Shop</title>
 </head>
 <body>
-    
+    <header>
+
+        <div class="container header1">
+            <!-- Logo do site -->
+            <img src="image/Yellow_Black_Brush_Streetwear_Brand_Logo-removebg-preview.png" alt="">
+
+            <!-- Inicio - Icons dde acesso rapido do menu -->
+            <div class="header-itens">
+                <div class="header-item">
+                    <i class='bx bxs-user'></i> 
+                    <div>
+                        <span>Minha conta</span>
+                        <br>
+                        <strong>
+                            <a href="#">Entrar</a>
+                            /
+                            <a href="#">Cadastro</a>
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="header-item" id="att">
+                    <i class='bx  bxs-message-circle-question-mark'  ></i> 
+                    <a>
+                        <span>Atendimento</span>
+                        <br>
+                        <strong>Ao cliente</strong>
+                    </a>
+                </div>
+
+                <div class="header-item">
+                    <i class='bx bxs-heart'></i> 
+                    <a>
+                        <span>Meus</span>
+                        <br>
+                        <strong>Favoritos</strong>
+                    </a>
+                </div>
+            </div>
+            <!-- Fim - Icons dde acesso rapido do menu -->
+            
+            <!-- Icone carrinho de compras-->
+            <div id="carrinho">
+                <a href="#">
+                    <button type="button"><i class='bx bxs-cart'></i>Carrinho</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Inicio - Menu principal -->
+        <div class="container header2">
+            <!-- Barra de pesquisa -->
+            <form action="#" id="pesquisa">
+                <input type="search" placeholder="Busque no site...">
+                <button type="submit">Pesquisar</button>
+            </form>
+
+            <div class="botao-menu">
+                <button type="button">Abrir Menu</button>
+            </div>
+
+            <nav id="nav">
+                <ul class="menu">
+                    <li>
+                        Hardware
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Processador</a>
+                            </li>
+                            <li>
+                                <a href="#">Placa Mãe</a>
+                            </li>
+                            <li>
+                                <a href="#">Memórias</a>
+                            </li>
+                            <li>
+                                <a href="#">Placa de Vídeo</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Pereiféricos
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Headset</a>
+                            </li>
+                            <li>
+                                <a href="#">Mouse</a>
+                            </li>
+                            <li>
+                                <a href="#">Teclado</a>
+                            </li>
+                            <li>
+                                <a href="#">Microfones</a>
+                            </li>
+                            <li>
+                                <a href="#">Webcam</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Monitores
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Monitores Games</a>
+                            </li>
+                            <li>
+                                <a href="#">Monitor Casa e Escritório</a>
+                            </li>
+                            <li>
+                                <a href="#">Acessórios para Monitor</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+            <!-- Fim - Menu principal -->
+
+            
+        </div>
+    </header>
+
+    <div class="conteudo container">
+        <main>
+            <section class="sobre-loja">
+                <div class="imagem-loja">
+                    <img src="image/fachada.jpg" alt="">
+                </div>
+                <div class="texto-sobre-loja">
+                    <h2>Sobre a Loja</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, enim! Aspernatur molestias ipsum laboriosam, dolorem esse, architecto iure quis atque dolorum dicta assumenda voluptas aliquid quisquam maxime qui quia!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid accusamus nostrum voluptatum. A rem optio aut repellat nam harum sint. Laudantium tempora vel eum perspiciatis! Consequuntur nostrum nisi labore natus.</p>
+                </div>
+            </section>
+
+            <section class="secao-produtos">
+                <h2>Produtos</h2>
+
+                <div class="produtos">
+                    <div class="item">
+                        <img src="/image/b550m-aorus-elite1.jpg" alt="">
+                        <h3>Placa Mae Gigabyte B550M Aorus Elite</h3>
+                        <p>DDR4, Socket AMD AM4, M-ATX, Chipset AMD B550, B550M-AORUS-ELITE</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                    <div class="item">
+                        <img src="/image/rtx-5070-1.jpg" alt="">
+                        <h3>Placa de Video Gigabyte GeForce RTX 5070 Aero</h3>
+                        <p>12GB, GDDR7, 192-bit, Branca, com Overclock, GV-N5070AERO-OC-12GD</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                    <div class="item">
+                        <img src="/image/ryzen-75700x3d-1.jpg" alt="">
+                        <h3>Processador AMD Ryzen 7 5700X3D</h3>
+                        <p>8-Core, 16-Threads, 3.0GHz (4.1GHz Turbo), Cache 100MB, AM4, 100-100001503WOF</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                    <div class="item">
+                        <img src="/image/memoria-1.jpg" alt="">
+                        <h3>Memoria Team Group T-Force Delta R</h3>
+                        <p>RGB, 16GB (2x8GB), DDR4, 3200MHz, C16, Branco, TF4D416G3200HC16FDC01</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                    <div class="item">
+                        <img src="/image/mnitor-1.jpg" alt="">
+                        <h3>Monitor Gamer LG, 24 Pol</h3>
+                        <p>IPS, FullHD, 1ms, 180Hz, FreeSync/G-Sync, HDMI/DP, 24GS60F-B.AWZM</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer><p>2025 © Hardware Shop - Todos os direitos reservados</p></footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.botao-menu button').click(function() {
+                $('.menu').slideToggle()
+            })
+        })
+    </script>
 </body>
 </html>
